@@ -1,4 +1,4 @@
-# fixPatterns
+# Matching and expanding fix patterns to enableautomatic program repair
 Replication package
 
 
@@ -9,9 +9,9 @@ I. Requirement
  - [SVN >= 1.8](https://subversion.apache.org/packages.html)
  - [perl >= 5.0.10](https://www.perl.org/get.html)
 
-II. Matching and expanding fix patterns to enableautomatic program repair
--------------------------------------------------------------------------
-TODO: Description
+II. Description
+---------------
+
 
 
 III. Prepare Defects4J Bugs
@@ -34,6 +34,9 @@ III. Prepare Defects4J Bugs
  -------------------------------
  ```powershell
   |--- README.md               :  user guidance
+  |--- matchingFixPatterns     :  matching fix patterns
+  |--- newFixPatterns          :  new fix patterns
+
 
 ```
 
