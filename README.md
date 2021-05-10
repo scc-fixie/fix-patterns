@@ -2,8 +2,8 @@
 Replication package
 
 
-I. Requirement
---------------
+I. Requirements
+---------------
  - [Java 1.7](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
  - [Defects4J](https://github.com/rjust/defects4j)
  - [SVN >= 1.8](https://subversion.apache.org/packages.html)
@@ -22,7 +22,7 @@ III. Prepare Defects4J Bugs
  2. Check out and compile each bug.
  - `./checkoutD4JBugs.sh`
     
-  If you fail to install defects4j, checkout or compile defects4j bugs, please reference these [introductions](https://github.com/rjust/defects4j#steps-to-set-up-defects4j).
+ If you fail to install Defects4J, checkout or compile Defects4J bugs, please check [instructions](https://github.com/rjust/defects4j#steps-to-set-up-defects4j).
   
  IV. TBar fix patterns
  ---------------------
