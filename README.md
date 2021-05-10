@@ -24,16 +24,20 @@ III. Prepare Defects4J Bugs
     
   If you fail to install defects4j, checkout or compile defects4j bugs, please reference these [introductions](https://github.com/rjust/defects4j#steps-to-set-up-defects4j).
   
- IV. Generate fix patterns
- -------------------------
+ IV. TBar fix patterns
+ ---------------------
  
- V. Matching fix patterns
+ V. Generate fix patterns
  ------------------------
  
- VI. Structure of the Directories
+ VI. Matching fix patterns
+ -------------------------
+ 
+ VII. Structure of the Directories
  -------------------------------
  ```powershell
   |--- README.md               :  user guidance
+  |--- TBarFixPatterns       :  TBar fix patters
   |--- matchingFixPatterns     :  matching fix patterns
   |--- newFixPatterns          :  new fix patterns
 
