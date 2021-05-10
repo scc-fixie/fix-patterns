@@ -37,7 +37,7 @@ III. Prepare Defects4J Bugs
  -------------------------------
  ```powershell
   |--- README.md               :  user guidance
-  |--- TBarFixPatterns       :  TBar fix patters
+  |--- TBarFixPatterns         :  TBar fix patters
   |--- matchingFixPatterns     :  matching fix patterns
   |--- newFixPatterns          :  new fix patterns
 
