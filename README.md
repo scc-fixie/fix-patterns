@@ -4,10 +4,12 @@ Replication package
 
 I. Requirements
 ---------------
- - [Java 1.7](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
+ - [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
  - [Defects4J](https://github.com/rjust/defects4j)
+ - [Git >= 1.9](https://git-scm.com/downloads)
  - [SVN >= 1.8](https://subversion.apache.org/packages.html)
- - [perl >= 5.0.10](https://www.perl.org/get.html)
+ - [perl >= 5.0.12](https://www.perl.org/get.html)
+
 
 II. Description
 ---------------
