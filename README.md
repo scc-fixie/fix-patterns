@@ -34,7 +34,7 @@ III. Prepare Defects4J Bugs
  
  For more details about the taxonomy of fix patterns and the TBar tool, please see [publication](https://dl.acm.org/doi/10.1145/3293882.3330577).
  
- For more details about how we automatically match our fix patterns with TBar fix patterns in our evaluation, please see [evaluation](https://github.com/35fjq0/fixPatterns/blob/main/MatchingFPs.pdf)
+ For more details about how we automatically match our fix patterns with TBar fix patterns in our evaluation, please see [TBar fix patterns](https://github.com/35fjq0/fixPatterns/blob/main/TBarFixPatterns.md).
  
  V. Generate fix patterns
  ------------------------
