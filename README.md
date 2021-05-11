@@ -13,8 +13,9 @@ I. Requirements
 
 II. Description
 ---------------
+Our tool automatically generates fix patterns out of similar fixes and compares the generated fix patterns against a state-of-the-art taxonomy. Our tool splits fixes into smaller, method-level chunks and calculates their similarity. A threshold-based clustering algorithm groups similar chunks, generates fix patterns and finds matches with the state-of-the-art taxonomy. We thematically analyse non-matching clusters and observe new fix patterns that expand the existing taxonomy.
 
-
+The dataset we use in our evaluation is Defects4J and the taxonomy of fix patterns is a collection of fix patterns from the APR literature found in TBar.
 
 III. Prepare Defects4J Bugs
 ---------------------------
@@ -28,6 +29,12 @@ III. Prepare Defects4J Bugs
   
  IV. TBar fix patterns
  ---------------------
+ 
+ TBar is a template-based automated program repair tool that applies fix patterns from a taxonomy collected form the APR literature.
+ 
+ For more details about the taxonomy of fix patterns and the TBar tool, please see [publication](https://dl.acm.org/doi/10.1145/3293882.3330577).
+ 
+ For more details about how we automatically match our fix patterns with TBar fix patterns in our evaluation, please see [evaluation](https://github.com/35fjq0/fixPatterns/blob/main/MatchingFPs.pdf)
  
  V. Generate fix patterns
  ------------------------
