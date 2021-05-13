@@ -20,10 +20,10 @@ The dataset we use in our evaluation is Defects4J and the taxonomy of fix patter
 III. Prepare Defects4J Bugs
 ---------------------------
  1. Download and Install Defects4J.
- - `./installD4J.sh`
+ > ./installD4J.sh
  
  2. Check out and compile each bug.
- - `./checkoutD4JBugs.sh`
+ > ./checkoutD4JBugs.sh
     
  If you fail to install Defects4J, checkout or compile Defects4J bugs, please check [instructions](https://github.com/rjust/defects4j#steps-to-set-up-defects4j).
   
@@ -38,9 +38,11 @@ III. Prepare Defects4J Bugs
  
  V. Generate fix patterns
  ------------------------
+ > java -jar fixPatterns.jar <path_to_Defects4J_bugs_and_fixes>
  
  VI. Matching fix patterns
  -------------------------
+ > ./matchClusters.sh
  
  VII. Structure of the Directories
  -------------------------------
