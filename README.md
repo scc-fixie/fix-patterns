@@ -1,5 +1,5 @@
-# Matching and expanding fix patterns to enableautomatic program repair
-Replication package
+# Expanding Fix Patterns to Enable Automatic Program Repair
+Replication package for the research paper accepted at The 32nd International Symposium on Software Reliability Engineering (ISSRE 2021).
 
 
 I. Requirements
