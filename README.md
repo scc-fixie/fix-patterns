@@ -19,14 +19,17 @@ The dataset we use in our evaluation is Defects4J and the taxonomy of fix patter
 
 III. Prepare Defects4J Bugs
 ---------------------------
- 1. Download and Install Defects4J.
+ 1. Download and install Defects4J.
  > ./installD4J.sh
  
- 2. Check out and compile each bug.
+ 2. Check out bugs and fixes.
  > ./checkoutD4JBugs.sh
-    
- If you fail to install Defects4J, checkout or compile Defects4J bugs, please check [instructions](https://github.com/rjust/defects4j#steps-to-set-up-defects4j).
-  
+     
+ These two scripts are adapted from [TBar](https://github.com/TruX-DTF/TBar).
+
+ If you fail to install Defects4J or checkout Defects4J bugs, please check [instructions](https://github.com/rjust/defects4j#steps-to-set-up-defects4j).
+
+
  IV. TBar fix patterns
  ---------------------
  
@@ -52,6 +55,9 @@ III. Prepare Defects4J Bugs
   |--- MatchingFPs             :  matching fix patterns
   |--- UnigramFPs              :  fix patterns generated with unigrams
   |--- NewFPs                  :  new fix patterns
+  |--- installD4J.sh           :  a script to install Defects4J
+  |--- checkoutD4JBugs.sh      :  a script to checkout Defects4J bugs and fixes
+
 
 ```
 
